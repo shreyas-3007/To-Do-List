@@ -1,0 +1,111 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url('images/background.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  
+  
+ 
+           
+}
+#title
+{
+  text-align: center;
+  color: aqua;
+  background-color: black;
+  padding: 40px;
+  margin-left: 500px;
+  margin-right: 500px;
+  
+
+ 
+}
+
+#add_button
+{
+  background-color: green;
+  padding: 15px 10px;
+  border-radius: 8px;
+  color: white;
+  border: none;
+  cursor: pointer;
+ 
+}
+#status_button
+{
+  background-color: rgb(20, 136, 213);
+  padding: 15px 10px;
+  border-radius: 8px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font: bolder;
+}
+#delete_button
+{
+  background-color: red;
+  padding: 15px 10px;
+  border-radius: 8px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.grid_container
+{
+  
+  display: grid;
+  grid-template-columns: 300px 150px 150px 100px 100px;
+  column-gap: 20px;
+  row-gap: 10px;
+  margin-top: 10px;
+  align-items: center;
+
+
+  
+}
+#input_text
+{
+   font-size: 15px;
+   padding: 10px 5px;
+   border-radius: 7px;
+}
+#input_date
+{
+  font-size: 15px;
+   padding: 10px 5px;
+   border-radius: 7px;
+
+}
+#input_time
+{
+  font-size: 15px;
+  padding: 10px 5px;
+  border-radius: 7px;
+
+}
+.itemm
+{
+  border: 9px;
+  background-color:beige;
+  font-size: 17px;
+  border-radius: 6px;
+  padding: 7px 7px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.list_container
+{
+  align-content: center;
+}
+
+#check_box
+{
+  transform: scale(3);
+  cursor: pointer;
+  margin-left: 45px;
+}
+
+
+
